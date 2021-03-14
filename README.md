@@ -1,5 +1,7 @@
 # Pytholution
 Very simple "evolution" in Python
+# Overview
+Basically it simulates a very simplistic form of population growth and then shows you a graph of the population history.
 # Installation
 Install matplotlib and numpy:
 ```sh
