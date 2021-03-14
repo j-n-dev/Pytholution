@@ -37,6 +37,9 @@ for step in range(0, steps):
         if rng.randint(0, 100) < deathChance: pop -= 1 # chance of creature dying
         if rng.randint(0, 100) < replicationChance: pop += 1 # chance of creature replicating
 
+# save results to text file
+np.savetxt("output.txt", pops)
+
 # print results idk
 print("-------------------------------------")
 print("The results are in.")
